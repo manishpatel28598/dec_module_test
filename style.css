@@ -234,6 +234,10 @@ button:hover{
   padding: 10px;
   
 }
+.food-items-recipes > a:hover{
+  color:#f94a3d;
+  text-decoration: underline;
+}
 .horizontal_line {
   background-color: #f8f8f8;
   height: 3px;
