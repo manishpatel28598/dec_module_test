@@ -11,13 +11,14 @@
   background: #fff;
 }
 .navbar {
-  margin-left: 240px;
-  margin-right: 254px;
   margin-top: 20px;
   padding: 5px;
+  background-color: #fef4f4;
+  position: sticky;
+  top:0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo {
@@ -41,6 +42,10 @@
 .links2 > a {
   text-decoration: none;
   color: black;
+}
+a:hover{
+  color: #f94a3d;
+  text-decoration: underline;
 }
 .fdelivery {
   color: var(--Food-Delivery-Orange-Color, #f94a3d);
@@ -88,6 +93,11 @@ button {
   border-radius: 10px;
   border: none;
   color: #fff;
+}
+button:hover{
+  background-color:white;
+  color: #f94a3d;
+  border: 2px solid #f94a3d;
 }
 .delivery_notification {
   height: 20;
@@ -454,7 +464,13 @@ table{
   margin-right: 254px;
   background-color: #fdf2f4;
 }
-td{
+td a{
   padding-left:65px;
+  text-decoration: none;
+  color:black;
+}
+th a{
+  text-decoration: none;
+  color:black;
 }
 
